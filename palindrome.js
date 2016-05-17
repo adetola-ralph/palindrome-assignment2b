@@ -1,9 +1,9 @@
 function palindrome (string){
     if(string != ''){
-        var rev = string.split();
-        rev = rev.reverse();
-        rev= rev.join();
-        if(rev == string){
+        var revs = string.split();
+        revs = revs.reverse();
+        revs= revs.join();
+        if(revs == string){
             return true;
         } 
         else{
