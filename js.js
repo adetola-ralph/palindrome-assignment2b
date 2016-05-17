@@ -4,7 +4,8 @@ function palindrome (string){
     // checks if input sring is empty
     if(string != ''){
 		// splits the input string into an array
-        var new_string = string.split('');
+		var stringArray = string.toLowerCase().replace(/[\W+\s+\_]/g,"");
+        var new_string = stringArray.split('');
 		
 		// calls the reverse method on the array
         new_string = new_string.reverse();
@@ -14,7 +15,7 @@ function palindrome (string){
 		
 		// checks for equality between the input string and the reversed string 
         // returns true or false.
-        if(new_string == string){
+        if(new_string == stringArray){
             return true;
         } 
         else{
