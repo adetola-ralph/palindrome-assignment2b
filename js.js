@@ -22,6 +22,6 @@ function palindrome (string){
             return false;
         }
     }
-    
+    else
         return false;
 }
