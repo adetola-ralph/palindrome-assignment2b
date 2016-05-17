@@ -1,4 +1,4 @@
-function palindrome (string){
+/*function palindrome (string){
     if(string != ''){
         var reverse = string.split();
         reverse = reverse.reverse();
@@ -12,4 +12,11 @@ function palindrome (string){
     }
     
         return false;
+}*/
+
+//A shorter solution
+function checkPalindrom(str) {
+    return str == str.split('').reverse().join('');
 }
+
+ 
