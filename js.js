@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*function palindrome (string){
 =======
 
@@ -33,9 +33,4 @@ function palindrome (string){
 function checkPalindrome(palindrome) {
     return palindrome == palindrome.split('').reverse().join('');
 }
-<<<<<<< HEAD
 
- 
-=======
-window.addEventListener('load',start, false);
->>>>>>> 9fed1d56ab797172280dbc413cecd0a3285f4209
