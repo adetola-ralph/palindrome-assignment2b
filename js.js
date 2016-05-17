@@ -15,8 +15,8 @@
 }*/
 
 //A shorter solution
-function checkPalindrom(str) {
-    return str == str.split('').reverse().join('');
+function checkPalindrome(palindrome) {
+    return palindrome == palindrome.split('').reverse().join('');
 }
 
  
