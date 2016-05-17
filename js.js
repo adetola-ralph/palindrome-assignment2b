@@ -24,4 +24,3 @@ function palindrome (string){
     
         return false;
 }
-window.addEventListener('load',start, false);
